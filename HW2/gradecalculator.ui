@@ -62,6 +62,11 @@
            <string>PIC 10C Advanced Programming</string>
           </property>
          </item>
+         <item>
+          <property name="text">
+           <string>PIC 10B Intermediate Programming </string>
+          </property>
+         </item>
         </widget>
        </item>
       </layout>
@@ -420,12 +425,18 @@
                <property name="text">
                 <string>Schema A</string>
                </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
               </widget>
              </item>
              <item>
               <widget class="QRadioButton" name="radioButton_2">
                <property name="text">
                 <string>Schema B</string>
+               </property>
+               <property name="checked">
+                <bool>false</bool>
                </property>
               </widget>
              </item>
